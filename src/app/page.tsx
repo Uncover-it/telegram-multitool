@@ -652,7 +652,7 @@ export default function TelegramTool() {
         </Link>
         <Link
           target="_blank"
-          href="https://github.com/WarFiN123/telegram-multitool"
+          href="https://github.com/Uncover-it/telegram-multitool"
           className={buttonVariants({ variant: "outline", size: "icon" })}
         >
           <Image
