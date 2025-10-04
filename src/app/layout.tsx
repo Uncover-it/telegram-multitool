@@ -7,7 +7,8 @@ import { Grid } from "@/components/ui/grid";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://telegram.uncoverit.org" },
+  metadataBase: new URL("https://telegram.uncoverit.org"),
+  alternates: { canonical: "/" },
   title: "Telegram Bot Multi-Tool",
   description:
     "Lightweight Telegram multitool for instant message sending and fast admin utilities.",
@@ -39,13 +40,6 @@ export const metadata: Metadata = {
       "Lightweight Telegram multitool for instant message sending and fast admin utilities.",
     url: "https://telegram.uncoverit.org",
     siteName: "Telegram Bot Multi-Tool",
-    images: [
-      {
-        url: "https://telegram.uncoverit.org/og.png",
-        width: 1200,
-        height: 630,
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
@@ -65,7 +59,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     description:
       "Lightweight Telegram multitool for instant message sending and fast admin utilities.",
-    images: ["https://telegram.uncoverit.org/og.png"],
   },
 };
 
